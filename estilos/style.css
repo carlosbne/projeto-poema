@@ -35,7 +35,7 @@ header{
     display: block;
     text-align: center;
     height: 140px;
-    padding: 50px;
+    padding: 50px 0;
     background-color: var(--cor11);
     color: var(--cor10);
     font-size: 0.8em;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css">
     <title>Blue Bird</title>
 </head>
 <body>
@@ -120,7 +120,10 @@
             <h2 class="autor-titulo">Sobre o autor</h2>
             <p>Henry Charles Bukowski (nascido Heinrich Karl Bukowski; Andernach, 16 de agosto de 1920 — Los Angeles, 9 de março de 1994) foi um poeta, contista e romancista estadunidense nascido na Alemanha. Sua obra, de caráter inicialmente obsceno e estilo totalmente coloquial, com descrições de trabalhos braçais, porres e relacionamentos baratos, fascinou gerações que buscavam uma obra com a qual pudessem se identificar.</p>
 
-            <img class="autor-imagem" src="imagens/autor.jpg" alt="fotografia do autor">
+            <picture>
+                <source media="(max-width: 670px)" srcset="imagens/autor-pq.jpg">
+                <img class="autor-imagem" src="imagens/autor.jpg" alt="fotografia do autor">
+            </picture>
         </aside>
 
         <div class="creditos">
