@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
 @font-face {
     font-family: "Orator";
-    src: url('/fontes/Orator-Std-Font.otf');
+    src: url('fontes/Orator-Std-Font.otf');
 }
 *{
     margin: 0;
